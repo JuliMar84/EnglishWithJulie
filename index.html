@@ -54,17 +54,6 @@
             opacity: 0;
         }
         
-        /* Cubre la marca de agua de la imagen */
-        .watermark-cover {
-            position: absolute;
-            background-color: #000000;
-            width: 150px; 
-            height: 30px; 
-            right: 0;
-            bottom: 15px; 
-            z-index: 0;
-        }
-
         /* Estilos de los textos de la cabecera */
         .header-line {
             color: #6990C3;
@@ -233,7 +222,7 @@
         /* Media Queries para una mejor respuesta en móviles */
         @media (max-width: 768px) {
             .page-header { padding-left: 40px; }
-            .page-header::before { background-size: 80%; background-position: center bottom; }
+            .page-header::before { background-size: 50%; background-position: center top; }
             .header-line-english { font-size: 3em; }
             .header-line-with { font-size: 1.5em; margin-left: 80px; }
             .header-line-signature { font-size: 4em; margin-left: 90px; }
@@ -519,3 +508,4 @@
     </script>
 </body>
 </html>
+
