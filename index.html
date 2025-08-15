@@ -23,7 +23,8 @@
             height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            /* Updated: Align to the top of the container */
+            justify-content: flex-start;
             /* Updated: Align to the left */
             align-items: flex-start;
             text-align: left;
@@ -32,6 +33,8 @@
             transition: opacity 0.5s ease-in-out;
             /* Updated: Padding to move text to the right */
             padding-left: 120px;
+            /* Updated: Added top padding to space out the content from the very top */
+            padding-top: 80px;
             /* Updated: Removed rotation */
             transform: none;
         }
@@ -45,7 +48,7 @@
             width: 100%;
             height: 100%;
             /* Updated: Using the new image URL provided by the user */
-            background-image: url('https://u.cubeupload.com/julieon/9d9ff8bc026b4d6abad1.jpg');
+            background-image: url('https://u.cubeupload.com/julieon/index.jpg');
             /* Updated: Increased size for a bigger image */
             background-size: 60%;
             background-repeat: no-repeat;
@@ -875,6 +878,7 @@ Mi enfoque combina efectividad y motivación, enseñando cómo opera el lenguaje
                                 <h4>Megapack Premium x48</h4>
                                 <p>$1430</p>
                                 <a href="https://www.paypal.com/ncp/payment/E8YCKYRARK8BW" class="buy-button" target="_blank">Comprar Ahora</a>
+                                </div>
                             </div>
                         </div>
                     </div>
