@@ -17,78 +17,6 @@
             color: #f0f0f0;
             line-height: 1.6;
         }
-
-        /* Contenedor principal de la cabecera con la imagen de fondo */
-        .page-header {
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            text-align: left;
-            position: relative;
-            overflow: hidden;
-            transition: opacity 0.5s ease-in-out;
-            padding: 80px 40px 0 120px;
-        }
-                
-        /* Oculta la cabecera al hacer scroll */
-        .page-header.hidden {
-            opacity: 0;
-        }
-        
-        /* Estilos de los textos de la cabecera */
-        .header-line {
-            color: #6990C3;
-            margin: 0;
-            line-height: 1;
-        }
-        
-        .header-line-english { font-size: 6em; font-weight: bold; }
-        .header-line-with { margin-left: 160px; font-size: 3em; }
-        .header-line-signature { 
-            font-family: 'Dancing Script', cursive; 
-            color: #64ffda;
-            font-size: 6.75em;
-            margin-top: 15px;
-            margin-left: 170px;
-        }
-
-        /* Estilos generales para las secciones de contenido */
-        .content-section {
-            padding: 80px 20px;
-            margin: 50px auto;
-            max-width: 900px;
-            text-align: center;
-            background-color: #000000;
-            border-radius: 16px;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-            animation: fadeIn 1s ease-out;
-            opacity: 0; /* Inicialmente oculto */
-            transform: translateY(50px);
-            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-        }
-        
-        .content-section.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        
-        h2, h3, h4 { color: #64ffda; font-weight: 700; margin-top: 0; }
-        p { color: #b3b3b3; line-height: 1.8; }
-
-        /* Contenedores de productos y tarjetas */
-        .shop-container, .comparison-section {
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-            margin-top: 40px;
-        }
     </style>
 </head>
 <body>
@@ -369,6 +297,7 @@
     </script>
 </body>
 </html>
+
 
 
 
